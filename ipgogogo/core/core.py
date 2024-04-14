@@ -10,7 +10,7 @@
 @ History        :  0.1(2024/04/14) - None(Keyork)
 """
 
-from model.state import CoreState
+from ..model.state import CoreState
 
 from .rcore import RCore
 from .wcore import WCore
