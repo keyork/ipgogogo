@@ -1,9 +1,9 @@
 import os
 
-from core.core import Core
-from model.state import CoreState
-from utils.checkdir import is_bottom_dir
-from utils.logger import init_logger
+from .core.core import Core
+from .model.state import CoreState
+from .utils.checkdir import is_bottom_dir
+from .utils.logger import init_logger
 
 
 class IPGoGoGo:
