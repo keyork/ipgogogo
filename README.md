@@ -29,4 +29,4 @@ python ipgogogo/run.py -i {input files dir path} -o {output files dir path} -l {
 
 ## TODO
 
-- [ ] ui
+- [x] ui
