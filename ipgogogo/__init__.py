@@ -4,6 +4,7 @@ from .core.core import Core
 from .model.state import CoreState
 from .utils.checkdir import is_bottom_dir
 from .utils.logger import init_logger
+from .ui import run
 
 
 class IPGoGoGo:
@@ -39,3 +40,7 @@ class IPGoGoGo:
         self.logger = init_logger(self.loglevel)
         self.core_state.init_logger(self.logger)
         self.run_multi()
+
+
+def run_ui():
+    run()
