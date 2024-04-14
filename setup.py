@@ -20,7 +20,7 @@ URL = "https://github.com/keyork/ipgogogo"
 EMAIL = "chengky18@icloud.com"
 AUTHOR = "Keyork"
 REQUIRES_PYTHON = ">=3.6.0"
-VERSION = "1.0.3"
+VERSION = "1.1.0"
 
 # What packages are required for this module to be executed?
 REQUIRED = [
